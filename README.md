@@ -4,5 +4,6 @@ DLHM-Microscope is a cost-effective digital lensless holographic microscope deve
 
 OD research group also developed an open-source plugin for image processing of recorded holograms in ImageJ.
 
-Details of this work. doi.org/10.1364/AO.405605
+Details of this work. https://doi.org/10.1364/AO.405605
+
 Open-source software for image processing. https://unal-optodigital.github.io/DLHM/
