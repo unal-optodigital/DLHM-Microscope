@@ -24,24 +24,47 @@
 	</script>
   </head>
 
+  <style>
+    .logos {
+      display:flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 10px;
+    }
+  </style>
+
   <body>
     <section class="page-header">
-      <h1 class="project-name">Digital Lensless Holographic Microscopy</h1>
-      <h2 class="project-tagline">Digital Lensless Holographic Microscopy plugin for ImageJ.</h2>
-      <a href="https://github.com/unal-optodigital/DLHM" class="btn">View on GitHub</a>
-      <a href="https://drive.google.com/open?id=1jHsy5yCR33wfjBg-UBoLbuqSgg-eCLJy" class="btn">Download .jar</a>
-      <a href="https://drive.google.com/open?id=1WQHH8z_-mm2M42RAcqvUOJHlbmbCuiEO" class="btn">Download .rar</a>
+      <h1 class="project-name">DLHM Microscope</h1>
+      <h2 class="project-tagline">Digital Lensless Holographic Microscope.</h2>
+      <a href="https://github.com/unal-optodigital/DLHM-Microscope" class="btn">View on GitHub</a>
+      <!-- <a href="https://drive.google.com/open?id=1WQHH8z_-mm2M42RAcqvUOJHlbmbCuiEO" class="btn">Download .rar</a> -->
     </section>
 
     <section class="main-content">
-      <p>
-				Digital Lens-less Holographic Microscopy is a plugin developed to work on the well-known software for image processing <a href="http://imagej.nih.gov/ij/index.html" target="_blank">ImageJ</a>. This plugin enables the numerical simulation and reconstruction of digitally recorded holograms of digital lens-less holographic microscopy. The plugin can be used for teaching and research purposes.
-      </p>
-
-      <p>
-        If you are using the plugin and find a bug, please <a href="#contact">contact us</a>.
-      </p>
-
+      
+      <div class="Header">
+        <p align = "center">
+          <img src="images/RealMicroscope.jpg" style="width:350px">
+        </p>
+        
+        <div>
+          <p>
+            DLHM-Microscope is a cost-effective digital lensless holographic microscope developed by Opto-Digital 
+            Processing Group of the Universidad Nacional de Colombia. This platform enables 
+            the recording of digital holograms with all the needed degrees of freedom to achieve different fields of 
+            view, levels of spatial resolution, and 2D scanning of the sample. This microscope is constructed using 
+            3D printing, fastening elements, a digital camera, and an aspheric lens.
+          </p>
+          <p>
+            If you need assistance in the assambly or use of DLHM Microscope, please <a href="#contact">contact us</a>.
+          </p>
+          <p>
+            More information about this work <a href="https://doi.org/10.1364/AO.405605">here.</a>
+          </p>
+        </div>
+      </div>
+        
     <!--
       <hr>
       <h3>
@@ -53,226 +76,167 @@
       </ul>
     -->
 
+      <!-- Installation  -->
+      <!--
       <hr>
       <h3>
         <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation
       </h3>
-
+      
       <p>
         The installation process is the standard for any ImageJ plugin, download the ".rar" file that includes the needed libraries and extract its contents under the <code>imagej/plugins</code> folder. Please make sure you are running ImageJ 1.48s or superior.
       </p>
+    -->
+      
+      <!-- Manual  -->
+      <!--
+        <hr>
+        <h3>
+          <a id="manual" class="anchor" href="#manual" aria-hidden="true"><span class="octicon octicon-link"></span></a>Manual
+        </h3>
+        
+        <h4>
+          Current release
+        </h4>
+        
+        <ul>
+          <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/downloads/dlhm/DLHM-manual_v1.0.pdf" target="_blank">Version 1.0</a></li>
+        </ul>
+      -->
 
-      <hr>
-      <h3>
-        <a id="manual" class="anchor" href="#manual" aria-hidden="true"><span class="octicon octicon-link"></span></a>Manual
-      </h3>
-			
-      <h4>
-        Current release
-      </h4>
+      <!-- Downloads -->
+      <!--
+      <div>
+        <hr>
+        <h3>
+          <a id="downloads" class="anchor" href="#downloads" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloads
+        </h3>
+        
+        <h4>
+          Second release
+        </h4>
+        
+        <ul>
+          <li><a href="https://drive.google.com/open?id=1jHsy5yCR33wfjBg-UBoLbuqSgg-eCLJy">DLHM_1.1.jar</a></li>
+          <li><a href="https://drive.google.com/open?id=1WQHH8z_-mm2M42RAcqvUOJHlbmbCuiEO">DLHM_1.1-libs.rar</a></li>
+          <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/manual_np_1.1.pdf">manual_np_1.2.pdf</a></li>
+        </ul>
+        
+        <h4>
+          Current release
+        </h4>
+        
+        <ul>
+          <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/downloads/dlhm/DLHM_1.0.jar">DLHM_1.0.jar</a></li>
+          <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/downloads/dlhm/DLHM-1.0-libs.zip">DLHM_1.0-libs.zip</a></li>
+          <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/manual_np_1.1.pdf">manual_np_1.2.pdf</a></li>
+        </ul>
+      </div>
+      -->
+      <div class="Assembly">
+        <hr>
+        <h3>
+          <a id="assembly" class="anchor" href="#assembly" aria-hidden="true"><span class="octicon octicon-link"></span></a>Assembly
+        </h3>
+        <p>The following video is a supplementary material for the assembly of DLHM-Microscope. </p>
+        
+        <video align = "center" width="100%" height="auto" autoplay>
+          <source align = "center" src="images/DLHM-Microscope.mp4" type="video/mp4">
+        </video>
+      </div>
+          
+      <!--Plugin   -->
+      <div class="Plugin">
+        <hr>
+        <h3>
+          <a id="plugin" class="anchor" href="#plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reconstruction of digitally recorded holograms.
+        </h3>
 
-      <ul>
-        <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/downloads/dlhm/DLHM-manual_v1.0.pdf" target="_blank">Version 1.0</a></li>
-      </ul>
-
-      <hr>
-      <h3>
-        <a id="downloads" class="anchor" href="#downloads" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloads
-      </h3>
-
-      <h4>
-        Second release
-      </h4>
-
-      <ul>
-        <li><a href="https://drive.google.com/open?id=1jHsy5yCR33wfjBg-UBoLbuqSgg-eCLJy">DLHM_1.1.jar</a></li>
-	<li><a href="https://drive.google.com/open?id=1WQHH8z_-mm2M42RAcqvUOJHlbmbCuiEO">DLHM_1.1-libs.rar</a></li>
-        <!-- <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/manual_np_1.1.pdf">manual_np_1.2.pdf</a></li> -->
-      </ul>
-	    
-      <h4>
-        Current release
-      </h4>
-
-      <ul>
-        <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/downloads/dlhm/DLHM_1.0.jar">DLHM_1.0.jar</a></li>
-        <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/downloads/dlhm/DLHM-1.0-libs.zip">DLHM_1.0-libs.zip</a></li>
-        <!-- <li><a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/opticayprocesamientooptodigital/manual_np_1.1.pdf">manual_np_1.2.pdf</a></li> -->
-      </ul>
-
-      <hr>
-      <h3>
-        <a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples
-      </h3>
-
-      <p>
-        Different examples of the use of the DLHM plugin are presented. All input/output raw image files presented in the folowing examples can be downloaded <a href="https://drive.google.com/open?id=1yNMc6ELA1K6B4FNLQJOmlMV8VEpQUVpn">here</a>.
-      </p>
-	    
-      <h4>
-        DLHM simulation of a diatom algae.
-      </h4>
-
-      <p align="center">
-        <img src="images/diatom.jpg" style="width:300px">
-	<img src="images/simulation_parameter_diatom.JPG" style="width:500px">	      
-	<img src="images/diatom_hologram.jpg" style="width:300px">
-	<img src="images/diatom_reference.jpg" style="width:300px">
-      </p>
-
-      <p align="center">
-        (Top-left) Input amplitude image. (Top-right) Simulation parameters. (Bottom-left) Modeled hologram. (Bottom-right) Modeled reference.
-      </p>
-
-      <p>
-        DLHM reconstruction of the previously modeled diatom algae hologram.
-      </p>
-
-      <p align="center">
-        <img src="images/reconstruction_parameter_diatom.JPG" style="width:500px">
-	<img src="images/diatom_reconctruction.jpg" style="width:300px">	      
-      </p>
-
-      <p align="center">
-        (Left) Reconstruction parameters. (Right) Reconstructed hologram.
-      </p>
-
-      <h4>
-        Study of lateral resolution in DLHM. 
-      </h4>
-	    
-      <p>
-        Two-stops simulated holograms and subsequent reconstructions for numerical apertures (NA) of 0.16, 0.27 and 0.44. Input amplitude to simulate two stops of 500nm separated 1.9um. Simulation and reconstruction parameters for NA = 0.16.
-      </p>
-
-      <p align="center">
-        <img src="images/(zoom-in)test3_1867nm_500nm.JPG" style="width:300px">
-	<img src="images/simulation_parameter_TwoStops.JPG" style="width:500px">
-	<img src="images/reconstruction_parameter_TwoStops.JPG" style="width:500px">
-      </p>
-
-      <p align="center">
-        (Top-left) Zoom-in input amplitude image. (Top-right) Simulation parameters. (Bottom) Reconstruction parameters.
-      </p>
-	    
-      <p>
-        Results of the lateral resolution study for DLHM.
-      </p>
-
-      <p align="center">
-        <img src="images/TwoStops_Simulation_Results.jpg" style="width:500px">
-      </p>
-
-      <p align="center">
-	Simulation of DLHM holograms (left) and their intensity reconstructions (center) for a sample with a separation S = 1.9μm between circular stops. For the yellow line in the intensity reconstruction, a profile line has been plotted (right). DLHM setups of 0.16 NA panel (a), 0.27 NA panel (b) and 0.44 NA panel (c) have been modeled.
-      </p>
-	    
-      <h4>
-        Reconstruction of an experimental DLHM hologram of one-microrganism.
-      </h4>  
-
-      <p align="center">
-        <img src="images/c0025.jpg" style="width:300px">
-        <img src="images/c0039.jpg" style="width:300px">
-        <img src="images/OneMicrorganism_ReconstructionParameters.jpg" style="width:500px">
-        <img src="images/OneMicrorganism_Intensity.jpg" style="width:300px">
-      </p>
-
-      <p align="center">
-	(Top-left) Experimental DLHM hologram of one microorganism. (Top-right) Experimental DLHM reference hologram. (Bottom-left) Reconstruction parameters. (Bottom-right) Intensity reconstruction.
-      </p>
-
-      <h4>
-        Reconstruction of an experimental DLHM hologram of four microrganisms.
-      </h4>  
-
-      <p align="center">
-        <img src="images/f0010.jpg" style="width:300px">
-        <img src="images/d0002.jpg" style="width:300px">
-        <img src="images/4Microorganisms_ReconstructionParameters.JPG" style="width:500px">
-        <img src="images/Recon(Intensity)a0031(multi-file)-depth(485.60).jpg" style="width:300px">
-      </p>
-
-      <p align="center">
-	(Top-left) Experimental DLHM hologram of four microorganisms. (Top-right) Experimental DLHM reference hologram. (Bottom-left) Reconstruction parameters. (Bottom-right) Intensity reconstruction.
-      </p>
-
-      <h4>
-        Reconstruction of an experimental DLHM hologram of the section of a drosophila melanogaster fly's head.
-      </h4>  
-
-      <p align="center">
-        <img src="images/G4_fly.bmp" style="width:300px">
-        <img src="images/GREF4_fly.bmp" style="width:300px">
-        <img src="images/Fly_ReconstructionParameters.JPG" style="width:500px">
-        <img src="images/Fly_IntensityReconstruction.jpg" style="width:300px">
-      </p>
-
-      <p align="center">
-	(Top-left) Experimental DLHM hologram of drosophila melanogaster fly. (Top-right) Experimental DLHM reference hologram. (Bottom-left) Reconstruction parameters. (Bottom-right) Intensity reconstruction.
-      </p>
-	    
-      <hr>
-      <h3>
-        <a id="changes" class="anchor" href="#changes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changes
-      </h3>
-	    
-      <h4>
-	Version 1.1, 2020/05
-      </h4>
-
-      <ul>
-        <li>Second release.</li>
-      </ul>
-	    
-      <h4>
-        Version 1.0, 2017/04
-      </h4>
-
-      <ul>
-        <li>Initial release.</li>
-      </ul>
-
-	    
-      <hr>
-      <h3>
-        <a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits
-      </h3>
-
-      <p>
-        DLHM uses <a href="http://unal-optodigital.github.io/JDiffraction/" target="_blank">JDiffraction</a>, <a href="https://sites.google.com/site/piotrwendykier/software/jtransforms" target="_blank">JTransforms</a> and the icons provided by the <a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk icon set</a>.
-      </p>
-
-      <hr>
-      <h3>
-        <a id="citation" class="anchor" href="#citation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Citation
-      </h3>
-
-      <p>
-        You can reference Digital Lensless Holographic Microscopy using the following patent:
-      </p>
-
-      <ol>
-        <li>J. García-Sucerquia, C. Trujillo and J. F. Restrepo, "MICROSCOPIO, HOLOGRÁFICO SIN LENTES (MHDSL) Y MÉTODO PARA VISUALIZAR MUESTRAS," U.S. patent 7620179 (2018).</li>
-      </ol>
-
-      <hr>
-      <h3>
-        <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact
-      </h3>
-
-      <ul>
-        <li>Pablo Piedrahita-Quintero (<a href="mailto:jppiedrahitaq@unal.edu.co">jppiedrahitaq@unal.edu.co</a>)</li>
-        <li>Carlos Trujillo (<a href="mailto:catrujilla@eafit.edu.co">catrujilla@eafit.edu.co</a>)</li>
-        <li>Jorge Garcia-Sucerquia (<a href="mailto:jigarcia@unal.edu.co">jigarcia@unal.edu.co</a>)</li>
-      </ul>
-
-      <footer class="site-footer">
-        <p align="center">
-          <img src="images/un.png" style="height:70px" hspace="40">
-          <img src="images/group-logo.png" style="height:70px" hspace="40">
+        <p>
+          The recorded holograms using the DLHM Microscope require a 
+          digital image process to obtain the image. Opto-Digital 
+          Processing Group developed an ImageJ plugin for that.
         </p>
+        <p><a href="https://unal-optodigital.github.io/DLHM/">Documentation of ImageJ plugin</a></p>
+      </div>
 
+      <!-- Changes  -->
+      <div class="Changes">
+        <hr>
+        <h3>
+          <a id="changes" class="anchor" href="#changes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changes
+        </h3>
+        
+        <!--
+          <h4>
+            Version 1.1, 2020/05
+          </h4>
+          <ul>
+            <li>Second release.</li>
+          </ul>
+        -->
+        
+        <h4>
+          Version 1.0, 2020/12
+        </h4>
+        
+        <ul>
+          <li>Initial release.</li>
+        </ul>
+      </div>
+        
+      <!--Credits
+        <div class="credits">
+          <hr>
+          <h3>
+            <a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits
+          </h3>
+          
+          <p>
+            DLHM uses <a href="http://unal-optodigital.github.io/JDiffraction/" target="_blank">JDiffraction</a>, <a href="https://sites.google.com/site/piotrwendykier/software/jtransforms" target="_blank">JTransforms</a> and the icons provided by the <a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk icon set</a>.
+          </p>
+        </div>
+      -->
+        
+      <!-- Citation  -->
+      <div class="citation">
+        <hr>
+        <h3>
+          <a id="citation" class="anchor" href="#citation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Citation
+        </h3>
+        
+        <p>
+          You can reference DLHM microscope using the following paper:
+        </p>
+        
+        <ul>
+          <li>Heberley Tobon-Maya, Samuel Zapata-Valencia, Erick Zora-Guzmán, Carlos Buitrago-Duque, and Jorge Garcia-Sucerquia, "Open-source, cost-effective, portable, 3D-printed digital lensless holographic microscope," Appl. Opt. 60, A205-A214 (2021). <a href="https://doi.org/10.1364/AO.405605">doi.org/10.1364/AO.405605</a></li>
+        </ul>
+      </div>
+        
+       <!-- Contact  -->
+      <div class="contact">
+        <hr>
+        <h3>
+          <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact
+        </h3>
+        
+        <ul>
+          <li>Samuel Zapata-Valencia (<a href="mailto:sizapatav@unal.edu.co">sizapatav@unal.edu.co</a>)</li>
+          <li>Heberley Tobon-Maya (<a href="mailto:htobonm@unal.edu.co">htobonm@unal.edu.co</a>)</li>
+          <li>Jorge Garcia-Sucerquia (<a href="mailto:jigarcia@unal.edu.co">jigarcia@unal.edu.co</a>)</li>
+        </ul>
+      </div>
+        
+      <!-- Footer  -->
+      <footer class="site-footer">
+        <div class="logos">
+          <p align="center">
+            <img src="images/un.gif" style="height:100px" hspace="45">
+            <img src="images/group-logo.gif" style="height:100px" hspace="45">
+          </p>
+        </div>
+          
         <span class="site-footer-owner">
           <a href="https://github.com/unal-optodigital/DLHM">Digital Lensless Holographic Microscopy</a> is maintained by <a href="https://github.com/unal-optodigital">unal-optodigital</a>.
         </span>
